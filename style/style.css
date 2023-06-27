@@ -87,3 +87,8 @@ body {
     letter-spacing: 1px;
     margin: 0;
 }
+.profile-description {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: auto;
+}
