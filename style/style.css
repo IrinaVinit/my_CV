@@ -1,6 +1,6 @@
 :root {
   --length-color: burlywood;
-  --border-color: rgb(147, 145, 145);
+  --border-color: rgb(87, 86, 86);
 }
 
 .body {
@@ -13,7 +13,7 @@
 .container {
   max-width: 1440px;
   margin: auto;
-  box-shadow: 0 1px 4px rgba(0, 0, 0, .6);
+  box-shadow: 0 1px 4px rsgba(0, 0, 0, .6);
 }
 
 .header {
@@ -85,7 +85,7 @@
 
 .contacts {
   padding: 0;
-  color: var(--length-color);
+  color: white;
   margin: auto 0;
   font-size: 20px;
   font-weight: 400;
@@ -220,8 +220,24 @@ text-transform:uppercase;
 .skills {
   
 }
-.skills-item {
+.list{
+list-style-type: none;
+padding-left: 15px;
+margin: 0;
+font-size: 16px;
+font-weight: 400;
+line-height: 20px;
+color: var(--border-color);
+}
 
+.list-item {
+    margin-bottom: 10px;
+}
+
+.list-item span {
+    font-size: 18px;
+    line-height: 20px;
+    color: black
 }
 .english {
     
