@@ -262,3 +262,11 @@
   .pre-code {
     text-align: left;
   }
+.footer {
+  display: flex;
+  justify-content: space-between;
+}
+  .logo {
+    width: 100px;
+    height: auto;
+  }
