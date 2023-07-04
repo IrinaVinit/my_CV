@@ -246,3 +246,19 @@
     background-color: var(--border-color);
     margin-bottom: 20px;
 }
+.link {
+    text-decoration: none;
+    color: black;
+    transition-duration: 0.5s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+    transition-property: color;
+}
+
+.link:hover {
+    color: #4d2323;
+  }
+
+  .pre-code {
+    text-align: left;
+  }
