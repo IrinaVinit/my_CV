@@ -24,6 +24,7 @@
 }
 .length {
   background-color: var(--length-color);
+  width: 390px
 }
 
 .nav-list {
@@ -38,7 +39,7 @@
 
 .profile {
   display: flex;
-  padding: 40px 90px;
+  padding: 30px 90px;
   justify-content: space-between;
   background-color: rgb(71, 70, 70);
 }
@@ -56,6 +57,7 @@
   line-height: 80px;
   text-align: center;
   margin: 0;
+  margin-top: 30px;
   color: var(--length-color);
 }
 
@@ -67,6 +69,7 @@
   text-align: center;
   text-transform: uppercase;
   margin: 0;
+  margin-bottom: 30px;
   background-color: var(--length-color);
 }
 
@@ -171,12 +174,23 @@
   color: black;
 }
 
+.ph:after {
+  content: "";
+  position: absolute;
+  background-image: url("../assets/svg/telephone-symbol.svg");
+  width: 24px;
+  height: 24px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  top: 8px;
+  left: 8px;
+  z-index: 2;
+  color: black;
+}
+
 .about {
-  /* display: grid;
-  grid-template-columns: 1fr 2fr;
-  grid-template-rows: auto; */
   display: flex;
-  
+ 
 }
 .about-length__container {
   display: flex;
@@ -267,7 +281,7 @@
 
 .main-section {
   width: 620px;
-  padding: 30px;
+  padding: 5px 30px;
   display: flex;
   flex-direction: column;
   gap: 25px;
@@ -290,7 +304,7 @@
   display: grid;
   grid-template-columns: 1fr 3fr;
   grid-template-rows: auto;
-  gap: 20px;
+  gap: 10px;
 }
 
 .link {
