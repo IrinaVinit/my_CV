@@ -11,7 +11,7 @@
   background-color: white;
 }
 .container {
-  width: 1040px;
+  width: 1050px;
   margin: auto;
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.6);
 }
@@ -22,9 +22,11 @@
   grid-template-columns: 1fr 2fr;
   font-family: "Roboto", sans-serif;
 }
+
 .length {
   background-color: var(--length-color);
-  width: 390px
+  width: 380px;
+  
 }
 
 .nav-list {
@@ -39,7 +41,7 @@
 
 .profile {
   display: flex;
-  padding: 30px 90px;
+  padding: 30px 90px 20px;
   justify-content: space-between;
   background-color: rgb(71, 70, 70);
 }
@@ -189,12 +191,12 @@
 }
 
 .about {
-  display: flex;
+  display: grid;
+  grid-template-columns: 380px auto;
  
 }
 .about-length__container {
   display: flex;
-  width: 410px;
   flex-direction: column;
   gap: 40px;
   align-items: left;
@@ -337,10 +339,12 @@
  
 }
 .project-link {
-  /* color: saddlebrown; */
   color: #cf1616;
   font-weight: 600;
 }
 .pre-code {
   text-align: left;
+}
+.margin {
+  margin-top: 25px;
 }
